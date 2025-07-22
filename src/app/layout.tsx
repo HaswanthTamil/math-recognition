@@ -3,11 +3,11 @@ import { Metadata } from "next"
 import { poppins, robotoFlex, lexend } from "@/lib/fonts"
 
 export const metadata: Metadata = {
-  title: "Haswanth Tamil",
-  description: "Full Stack Developer",
-  icons: {
-    icon: "/favicon.png",
-  },
+  title: "MathScribe",
+  description: "Math expression detection using ML",
+  // icons: {
+  //   icon: "/favicon.png",
+  // },
 }
 
 export default function RootLayout({

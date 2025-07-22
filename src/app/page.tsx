@@ -1,6 +1,3 @@
-import Image from "next/image"
-import backgroundImage from "@/assets/bg.png"
-
 export default function Home() {
   return (
     <>
