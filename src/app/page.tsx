@@ -1,7 +1,11 @@
+import Canvas from "@/components/Canvas"
+
 export default function Home() {
   return (
     <>
-      <div className="text-red-600">Hello</div>
+      <div>
+        <Canvas />
+      </div>
     </>
   )
 }
