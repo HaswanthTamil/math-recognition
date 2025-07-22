@@ -70,7 +70,7 @@ const Canvas = ({ onExport }: CanvasProps = {}) => {
 
   return (
     <div>
-      <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-4 ">
         <div className="flex flex-row gap-4">
           <button
             onClick={clearCanvas}
@@ -87,7 +87,7 @@ const Canvas = ({ onExport }: CanvasProps = {}) => {
         </div>
         <canvas
           ref={canvasRef}
-          className="border border-gray-400 rounded-lg bg-white w-[95vw] h-[70vh]"
+          className="border border-gray-400 rounded-lg bg-gray-200 w-[95vw] h-[70vh]"
           onMouseDown={startDraw}
           onMouseMove={draw}
           onMouseUp={endDraw}
